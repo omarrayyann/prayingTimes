@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450C939225FE538A00CA4B40 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C939125FE538A00CA4B40 /* LaunchViewController.swift */; };
+		451CC5E425FFB91A00205249 /* QiblaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC5E325FFB91A00205249 /* QiblaViewController.swift */; };
+		452672BD26262B9300460A7E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452672BC26262B9300460A7E /* SettingsViewController.swift */; };
+		4542C8A5262648BD00E5D779 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542C8A4262648BD00E5D779 /* Manager.swift */; };
+		455AD2A325FE4F64007B0F6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AD2A225FE4F64007B0F6A /* Extensions.swift */; };
+		45848619261154330016263F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45848618261154330016263F /* GoogleService-Info.plist */; };
 		459041A725FE46F70025B4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459041A625FE46F70025B4E9 /* AppDelegate.swift */; };
 		459041A925FE46F70025B4E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459041A825FE46F70025B4E9 /* SceneDelegate.swift */; };
 		459041AB25FE46F70025B4E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459041AA25FE46F70025B4E9 /* ViewController.swift */; };
@@ -14,9 +20,23 @@
 		459041B125FE46F70025B4E9 /* prayingTimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 459041AF25FE46F70025B4E9 /* prayingTimes.xcdatamodeld */; };
 		459041B325FE46F80025B4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459041B225FE46F80025B4E9 /* Assets.xcassets */; };
 		459041B625FE46F80025B4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459041B425FE46F80025B4E9 /* LaunchScreen.storyboard */; };
+		45E64D0D25FFD81600ACD4F8 /* AthkarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E64D0C25FFD81600ACD4F8 /* AthkarViewController.swift */; };
+		45E64D1025FFFAC600ACD4F8 /* MorningPrayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E64D0F25FFFAC600ACD4F8 /* MorningPrayersViewController.swift */; };
+		45E64D13260009D900ACD4F8 /* NightPrayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E64D12260009D900ACD4F8 /* NightPrayersViewController.swift */; };
+		80A2E89164BA0C01574131B6 /* Pods_prayingTimes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8899C0EBD7ADDAF05D6DE2A /* Pods_prayingTimes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450C939125FE538A00CA4B40 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		451CC5DA25FFB8D300205249 /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
+		451CC5DB25FFB8D300205249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451CC5DD25FFB8D400205249 /* CompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTests.swift; sourceTree = "<group>"; };
+		451CC5DE25FFB8D400205249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451CC5E325FFB91A00205249 /* QiblaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaViewController.swift; sourceTree = "<group>"; };
+		452672BC26262B9300460A7E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4542C8A4262648BD00E5D779 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		455AD2A225FE4F64007B0F6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		45848618261154330016263F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		459041A325FE46F70025B4E9 /* prayingTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prayingTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459041A625FE46F70025B4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459041A825FE46F70025B4E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +46,12 @@
 		459041B225FE46F80025B4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459041B525FE46F80025B4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459041B725FE46F80025B4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E64D0C25FFD81600ACD4F8 /* AthkarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkarViewController.swift; sourceTree = "<group>"; };
+		45E64D0F25FFFAC600ACD4F8 /* MorningPrayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningPrayersViewController.swift; sourceTree = "<group>"; };
+		45E64D12260009D900ACD4F8 /* NightPrayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightPrayersViewController.swift; sourceTree = "<group>"; };
+		8F6A4A6B4688A542BAE4939D /* Pods-prayingTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prayingTimes.debug.xcconfig"; path = "Target Support Files/Pods-prayingTimes/Pods-prayingTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD0FE5667241C5D0DD10A64 /* Pods-prayingTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prayingTimes.release.xcconfig"; path = "Target Support Files/Pods-prayingTimes/Pods-prayingTimes.release.xcconfig"; sourceTree = "<group>"; };
+		F8899C0EBD7ADDAF05D6DE2A /* Pods_prayingTimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prayingTimes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A2E89164BA0C01574131B6 /* Pods_prayingTimes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451CC5D925FFB8D300205249 /* CompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				451CC5DA25FFB8D300205249 /* CompassUITests.swift */,
+				451CC5DB25FFB8D300205249 /* Info.plist */,
+			);
+			path = CompassUITests;
+			sourceTree = "<group>";
+		};
+		451CC5DC25FFB8D400205249 /* CompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				451CC5DD25FFB8D400205249 /* CompassTests.swift */,
+				451CC5DE25FFB8D400205249 /* Info.plist */,
+			);
+			path = CompassTests;
+			sourceTree = "<group>";
+		};
 		4590419A25FE46F70025B4E9 = {
 			isa = PBXGroup;
 			children = (
 				459041A525FE46F70025B4E9 /* prayingTimes */,
 				459041A425FE46F70025B4E9 /* Products */,
+				451CC5DC25FFB8D400205249 /* CompassTests */,
+				451CC5D925FFB8D300205249 /* CompassUITests */,
+				65C2715B41D3D28E4ECDE2FA /* Pods */,
+				ACA5DAFB139D5568AA4D3F33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +108,41 @@
 			isa = PBXGroup;
 			children = (
 				459041A625FE46F70025B4E9 /* AppDelegate.swift */,
+				451CC5E325FFB91A00205249 /* QiblaViewController.swift */,
 				459041A825FE46F70025B4E9 /* SceneDelegate.swift */,
 				459041AA25FE46F70025B4E9 /* ViewController.swift */,
+				4542C8A4262648BD00E5D779 /* Manager.swift */,
+				45848618261154330016263F /* GoogleService-Info.plist */,
+				455AD2A225FE4F64007B0F6A /* Extensions.swift */,
 				459041AC25FE46F70025B4E9 /* Main.storyboard */,
+				452672BC26262B9300460A7E /* SettingsViewController.swift */,
+				45E64D12260009D900ACD4F8 /* NightPrayersViewController.swift */,
+				45E64D0F25FFFAC600ACD4F8 /* MorningPrayersViewController.swift */,
+				450C939125FE538A00CA4B40 /* LaunchViewController.swift */,
 				459041B225FE46F80025B4E9 /* Assets.xcassets */,
 				459041B425FE46F80025B4E9 /* LaunchScreen.storyboard */,
 				459041B725FE46F80025B4E9 /* Info.plist */,
+				45E64D0C25FFD81600ACD4F8 /* AthkarViewController.swift */,
 				459041AF25FE46F70025B4E9 /* prayingTimes.xcdatamodeld */,
 			);
 			path = prayingTimes;
+			sourceTree = "<group>";
+		};
+		65C2715B41D3D28E4ECDE2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A4A6B4688A542BAE4939D /* Pods-prayingTimes.debug.xcconfig */,
+				EAD0FE5667241C5D0DD10A64 /* Pods-prayingTimes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACA5DAFB139D5568AA4D3F33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8899C0EBD7ADDAF05D6DE2A /* Pods_prayingTimes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 459041BA25FE46F80025B4E9 /* Build configuration list for PBXNativeTarget "prayingTimes" */;
 			buildPhases = (
+				4A555DF0EF40134820A4CDEB /* [CP] Check Pods Manifest.lock */,
 				4590419F25FE46F70025B4E9 /* Sources */,
 				459041A025FE46F70025B4E9 /* Frameworks */,
 				459041A125FE46F70025B4E9 /* Resources */,
+				F6EFB7FC503C19D7495592C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				459041B625FE46F80025B4E9 /* LaunchScreen.storyboard in Resources */,
+				45848619261154330016263F /* GoogleService-Info.plist in Resources */,
 				459041B325FE46F80025B4E9 /* Assets.xcassets in Resources */,
 				459041AE25FE46F70025B4E9 /* Main.storyboard in Resources */,
 			);
@@ -135,15 +213,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A555DF0EF40134820A4CDEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prayingTimes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EFB7FC503C19D7495592C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prayingTimes/Pods-prayingTimes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prayingTimes/Pods-prayingTimes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prayingTimes/Pods-prayingTimes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4590419F25FE46F70025B4E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				459041AB25FE46F70025B4E9 /* ViewController.swift in Sources */,
+				450C939225FE538A00CA4B40 /* LaunchViewController.swift in Sources */,
+				452672BD26262B9300460A7E /* SettingsViewController.swift in Sources */,
+				455AD2A325FE4F64007B0F6A /* Extensions.swift in Sources */,
 				459041B125FE46F70025B4E9 /* prayingTimes.xcdatamodeld in Sources */,
+				451CC5E425FFB91A00205249 /* QiblaViewController.swift in Sources */,
+				45E64D1025FFFAC600ACD4F8 /* MorningPrayersViewController.swift in Sources */,
+				4542C8A5262648BD00E5D779 /* Manager.swift in Sources */,
+				45E64D13260009D900ACD4F8 /* NightPrayersViewController.swift in Sources */,
 				459041A725FE46F70025B4E9 /* AppDelegate.swift in Sources */,
 				459041A925FE46F70025B4E9 /* SceneDelegate.swift in Sources */,
+				45E64D0D25FFD81600ACD4F8 /* AthkarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,16 +415,19 @@
 		};
 		459041BB25FE46F80025B4E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6A4A6B4688A542BAE4939D /* Pods-prayingTimes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = prayingTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.prayingTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,16 +437,19 @@
 		};
 		459041BC25FE46F80025B4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD0FE5667241C5D0DD10A64 /* Pods-prayingTimes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = prayingTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.prayingTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
